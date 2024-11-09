@@ -1,16 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="icon" href="/src/img/icon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="/src/img/icon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+        <link href="styles/style.css" rel="stylesheet">
+        <link href="styles/utline.css" rel="stylesheet">
+        <link href="styles/utline-settings.css" rel="stylesheet">
+        <title>antools.</title>
+    </head>
     
-</body>
-
+    <body>
+        <header class="page-header">
+            <nav class="main-nav">
+                <div class="logo">
+                    <img src="img/logo.svg" width="140" height="38" alt="Логотип">
+                </div>
+                <ul class="site-navigation">
+                    <li class="site-navigation-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="site-navigation-item dropdown">
+                        <div class="categories-span">
+                            <span>Categories</span>
+                        </div>
+                        <div class="categories">
+                            <a href="#">Categoy 1</a>
+                            <a href="#">Categoy 2</a>
+                            <a href="#">Categoy 3</a>
+                        </div>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="#">My Collections</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+                <div class="account">
+                    <div class="login">
+                        <a href="#">Login</a>
+                    </div>
+                    <button class="sing-up" href="#">Sing Up</button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="hero-description">
+                    <h1>Awesome tools for Designer & Developer<span class="point">.</span></h1>
+                    <p class="p-description">Antool is a web collection of information on paid or <br />
+                        free Design and Development tools</p>
+                    <form>
+                        <div class="search">
+                            <img src="img/search.svg" alt="Facebook" width="34" height="34">
+                            <input type="text" placeholder="find more than 430+ tools...">
+                        </div>
+                        <button type="submit">Search</button>
+                    </form>
+                    <div class="social-box">
+                        <ul class="social-list">
+                            <li class="social-item">
+                                <a href="#">
+                                    <img src="img/facebook.svg" alt="Facebook" width="34" height="34">
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="#">
+                                    <img src="img/instagram.svg" alt="Instagram" width="36" height="36">
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="#">
+                                    <img src="img/twitter.svg" alt="Twitter" width="36" height="36">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hero-img">
+                    <img src="img/main-hero-img.svg" width="589" height="589" alt="Графика к блоку-герою">
+                </div>
+            </section>
+            <section class="tools">
+                <div class="tools-description">
+                    <h2>Most Popular Tools</h2>
+                    <p class="p-description">Tools for the best Designers and Developers<br />
+                        most popularly used in the world</p>
+                </div>
+                <div class="cards">
+                    <ul class="cards-block">
+                        <li class="card">
+                            <img class="logo-tools" src="img/icons-figma.svg" alt="FIGMA logo" width="64" height="64">
+                            <div class="card-name">
+                                <h3 class="name">FIGMA</h3>
+                                <p class="distribution">Free</p>
+                            </div>
+                            <p class="p-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="buttons">
+                                <div class="non-background-buttons">
+                                    <button><img src="img/like.svg" width="30" height="30"
+                                            alt="Иконка добавить в избранное"></button>
+                                    <button><img src="img/folder.svg" width="30" height="30"
+                                            alt="Иконка сохранить инструмент"></button>
+                                </div>
+                                <button>Visit</button>
+                            </div>
+                        </li>
+                        <li class="card">
+                            <img class="logo-tools" src="img/icons-sketch.svg" alt="Scetch logo" width="64" height="64">
+                            <div class="card-name">
+                                <h3 class="name">Scetch</h3>
+                                <p class="distribution">Trial & Paid</p>
+                            </div>
+                            <p class="p-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="buttons">
+                                <div class="non-background-buttons">
+                                    <button><img src="img/like.svg" width="30" height="30"
+                                            alt="Иконка добавить в избранное"></button>
+                                    <button><img src="img/folder.svg" width="30" height="30"
+                                            alt="Иконка сохранить инструмент"></button>
+                                </div>
+                                <button>Visit</button>
+                            </div>
+                        </li>
+                        <li class="card">
+                            <img class="logo-tools" src="img/icons-vscode.svg" alt="VS Code logo" width="64" height="64">
+                            <div class="card-name">
+                                <h3 class="name">Visual Studio Code</h3>
+                                <p class="distribution">Free</p>
+                            </div>
+                            <p class="p-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="buttons">
+                                <div class="non-background-buttons">
+                                    <button><img src="img/like.svg" width="30" height="30"
+                                            alt="Иконка добавить в избранное"></button>
+                                    <button><img src="img/folder.svg" width="30" height="30"
+                                            alt="Иконка сохранить инструмент"></button>
+                                </div>
+                                <button>Visit</button>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="cards-block">
+                        <li class="card">
+                            <img class="logo-tools" src="img/icons-notion.svg" alt="Notion logo" width="64" height="64">
+                            <div class="card-name">
+                                <h3 class="name">Notion</h3>
+                                <p class="distribution">Free & Paid</p>
+                            </div>
+                            <p class="p-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="buttons">
+                                <div class="non-background-buttons">
+                                    <button><img src="img/like.svg" width="30" height="30"
+                                            alt="Иконка добавить в избранное"></button>
+                                    <button><img src="img/folder.svg" width="30" height="30"
+                                            alt="Иконка сохранить инструмент"></button>
+                                </div>
+                                <button>Visit</button>
+                            </div>
+                        </li>
+                        <li class="card">
+                            <img class="logo-tools" src="img/icons-slack.svg" alt="Slack logo" width="64" height="64">
+                            <div class="card-name">
+                                <h3 class="name">Slack</h3>
+                                <p class="distribution">Free & Paid</p>
+                            </div>
+                            <p class="p-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="buttons">
+                                <div class="non-background-buttons">
+                                    <button class="like"><img src="img/like.svg" width="30" height="30"
+                                            alt="Иконка добавить в избранное"></button>
+                                    <button class="save"><img src="img/folder.svg" width="30" height="30"
+                                            alt="Иконка сохранить инструмент"></button>
+                                </div>
+                                <button>Visit</button>
+                            </div>
+                        </li>
+                        <li class="card">
+                            <img class="logo-tools" src="img/icons-invision.svg" alt="Invision logo" width="64" height="64">
+                            <div class="card-name">
+                                <h3 class="name">Invision</h3>
+                                <p class="distribution">Free & Paid</p>
+                            </div>
+                            <p class="p-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="buttons">
+                                <div class="non-background-buttons">
+                                    <button><img src="img/like.svg" width="30" height="30"
+                                            alt="Иконка добавить в избранное"></button>
+                                    <button><img src="img/folder.svg" width="30" height="30"
+                                            alt="Иконка сохранить инструмент"></button>
+                                </div>
+                                <button>Visit</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <button class="load">Load more</button>
+            </section>
+        </main>
+        <footer>
+            <p>Trusted more than 150+ brand</p>
+            <ul class="brands">
+                <li class="brand">
+                    <img src="/src/img/logos_microsoft.svg" alt="Бренд Microsoft">
+                </li>
+                <li class="brand">
+                    <img src="/src/img/logos_google.svg" alt="Бренд Google">
+                </li>
+                <li class="brand">
+                    <img src="/src/img/logos_slack.svg" alt="Бренд Slack">
+                </li>
+                <li class="brand">
+                    <img src="/src/img/logos_wordpress.svg" alt="Бренд Wordpress">
+                </li>
+            </ul>
+        </footer>
+    </body>
 </html>
